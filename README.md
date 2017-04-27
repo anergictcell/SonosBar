@@ -61,11 +61,22 @@ ACTIONS
 ```
 
 
-#### TODOs
-- [ ] Add previous song button to Bitbar output
-- [ ] Write function to change volume for a group
+#### Features / TODOs
+- [x] Select player by name or IP
+- [x] Play / Pause Music playback
+- [x] Play next song
+- [x] Play previous song
+- [ ] Previous song option in Bitbar menu
+- [x] En- / Disable shuffle
+- [ ] En- / Disable repeat
+- [x] Replace queue with Sonos playlist
+- [x] Set volume for individual player
+- [ ] Set volume for whole group (in a somewhat intelligent manner)
+- [x] Joining other groups
+- [x] Unjoining other groups
+- [x] Allow actions for individual players as well as a whole group
+- [ ] Save recently used IP addresses to speed up startup
 - [ ] Write unit testing code
-- [ ] Save recently working IP addresses for faster startup
 - [ ] Find bottlenecks in output generation, try to speed it up
 - [ ] Make a nicer Symbol
 - [ ] Show the little speaker-specific icon from Sonos next to each Speaker
