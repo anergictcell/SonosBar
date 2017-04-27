@@ -59,3 +59,13 @@ ACTIONS
 - shuffle
 - normal (disable shuffle)
 ```
+
+
+#### TODOs
+- [ ] Add previous song button to Bitbar output
+- [ ] Write function to change volume for a group
+- [ ] Write unit testing code
+- [ ] Save recently working IP addresses for faster startup
+- [ ] Find bottlenecks in output generation, try to speed it up
+- [ ] Make a nicer Symbol
+- [ ] Show the little speaker-specific icon from Sonos next to each Speaker
