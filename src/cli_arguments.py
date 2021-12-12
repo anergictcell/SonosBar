@@ -41,7 +41,9 @@ import socket
 
 def parse_ip(ip_string):
     """Parsing the user supplied IP address to use on the local subnet"""
-    host_ip = socket.gethostbyname(socket.gethostname())
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(('1.1.1.1', 1))  # we can use any IP here
+    host_ip = s.getsockname()[0]
     subnets = host_ip.split(".")
     sonos_subnets = ip_string.split(".")
     new_ip = subnets[0:(4-len(sonos_subnets))] + sonos_subnets
